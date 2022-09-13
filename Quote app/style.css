@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+
+body{
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+#container {
+  width: 40rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  height: 262px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  
+}
+
+#quote {
+  font-weight: 600;
+  font-family: "montserrat";
+  width: 40rem;
+  font-size: 2.5rem;
+}
+
+
+#author {
+  font-family: "verdana";
+  position: absolute;
+  top: 17rem;
+}
+
+/* button 2 */
+
+
+.button2 {
+  position: absolute;
+  transform: translate(-50%, 10px);
+  left: 50%;
+  top: 19rem;
+	background-color:#ff75ff;
+	border-radius:8px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:19px;
+	font-weight:bold;
+	padding:15px;
+	text-decoration:none;
+}
+.button2:hover {
+	background-color:#ff00ff;
+}
+.button2:active {
+	position:absolute;
+	top:18.9rem;
+}
+
+      
+
+
+h1 {
+  margin: 0;
+  position: absolute;
+width: 542px;
+height: 120px;
+left: 65px;
+top: 11px;
+
+font-family: 'verdana';
+font-style: normal;
+font-weight: 800;
+font-size: 36px;
+line-height: 44px;
+letter-spacing: 0.16em;
+
+color: #000000;
+}
+
+.line1 {
+  position: absolute;
+width: 1219px;
+height: 0px;
+left: 58px;
+top: 71px;
+
+border: 1px solid #000000;
+
+}
+
+.line2 {
+  position: absolute;
+width: 1219px;
+height: 0px;
+left: 58px;
+top: 557px;
+
+border: 1px solid #000000;
+}
+
+
+/* Developed by Daniel Conrado */
+
+
+
+
+
+
+.danielconrado {
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  bottom: 0.9rem;
+  transform: translate(-50%);
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 21px;
+  letter-spacing: 0.16em;
+  color: grey;
+}
+
+.too-big {
+  font-size: 1.5rem !important;
+}
